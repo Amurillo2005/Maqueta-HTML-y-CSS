@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    height: 90px;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    gap: 70px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+}
+
+.button-reservation{
+    background-color: #d12b2b;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
