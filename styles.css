@@ -198,3 +198,9 @@
     grid-column-start: 5;
     grid-row-start: 4;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
