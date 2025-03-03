@@ -1,20 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
     display: flex;
-    height: 90px;
-    padding: 20px 30px;
+    padding: 30px;
     align-items: center;
     justify-content: space-around;
     font-family: Roboto, sans-serif;
     font-weight: bold;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     gap: 70px;
 }
@@ -29,12 +28,100 @@
     font-weight: 300;
 }
 
-.button-reservation{
+.button-reservation {
     background-color: #d12b2b;
     color: #fff;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+}
+
+.imgSection {
+    display: flex;
+    justify-content: center;
+}
+
+.special-menu {
+    margin: 90px;
+}
+
+.special-menu h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-self: center;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.food .food-img {
+    object-fit: contain;
+    height: 350px;
+}
+
+.food .food-content {
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+    align-items: center;
+}
+
+.food-name {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.food-price {
+    font-size: 15px;
+    box-shadow: 3px 3px 80px rgba(0, 0, 0, 0.5);
+    width: 70px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #ffa500;
+    padding: 15px 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.first-price{
+    color: #808080;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+.food-general-puntuation {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.food-general-puntuation .food-puntuation {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.food-general-puntuation .food-reviews {
+    color: gray;
+    font-weight: 200;
+    font-family: Roboto, sans-serif;
+}
+
+.food-content del{
+    color: #808080;
+    font-family: Roboto, sans-serif;
 }
